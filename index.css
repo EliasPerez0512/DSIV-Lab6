@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.Cuadro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Menu{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+}
+.Nav-menu-Item{
+    margin-top: 0px;
+    padding: 50px;
+    font-family: 'Titillium Web', sans-serif;
+}
+.Nav-menu-Item a{
+    color: black;
+}
+nav{
+    margin-top: 0;
+    background-color: black;
+    height: 150px;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+span{
+    border-radius: 10px;
+    background-color: bisque;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+}
+.Encabezado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: bisque;
+    color: black;
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+    font-size: 11px;
+}
+.Encabezado ul li{
+    padding: -2px;
+}
+.Articulos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(117, 117, 117);
+    height: 600px;
+    font-family: 'Titillium Web', sans-serif;
+}
+.art-1,.art-2,.art-3{
+    color: white;
+    background-color: black;
+    width: 300px;
+    height: 500px;
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+}
+.art-1 p{
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.art-1 p a{
+    color: rgb(17, 0, 255);
+}
+.art-2 p{
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.art-2 p a{
+    color: rgb(17, 0, 255);
+}
+.art-3 p{
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.art-3 p a{
+    color: rgb(17, 0, 255);
+}
+.Imagen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/Imagenes/OSO.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 60px;
+    position: relative;
+    z-index: 1;
+}
+.Imagen::before {
+    content: "";
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: bisque;
+    height: 200px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.Logo-Fisc{
+    width: 150px;
+    height: 150px;
+}
+.Logo-Utp{
+    width: 150px;
+    height: 150px;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
